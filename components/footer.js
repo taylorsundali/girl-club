@@ -53,12 +53,12 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Stay Connected</h3>
             <div className="flex gap-4 mb-6">
-              <Link href="#" className="hover:text-blue-400" />
+              <Link href="#" className="hover:text-blue-400">
                 <Instagram className="h-6 w-6" />
-              </a>
-              <Link href="#" className="hover:text-blue-400" />
+              </Link>
+              <Link href="#" className="hover:text-blue-400">
                 <Facebook className="h-6 w-6" />
-              </a>
+              </Link>
             </div>
             <div>
               <h4 className="font-medium mb-2">Join our newsletter</h4>

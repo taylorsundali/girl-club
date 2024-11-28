@@ -1,5 +1,5 @@
 import { Check } from 'lucide-react';
-import { Card, CardHeader, CardContent } from '@/components/ui/card';
+import { Card, CardHeader, CardContent } from '../ui/card';
 
 export default function PricingCard({ title, price, features, isPopular }) {
   return (

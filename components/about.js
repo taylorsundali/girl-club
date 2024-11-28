@@ -1,3 +1,4 @@
+import Image from 'next/image';
 export default function About() {
   return (
     <div className="py-16 lg:py-24 bg-gray-50">
@@ -12,8 +13,8 @@ export default function About() {
           <div>
             <h3 className="text-xl font-semibold mb-4">Dr. Sarah Johnson, PT, DPT</h3>
             <p className="text-gray-600 mb-4">
-              With over 10 years of experience as a physical therapist specializing in women's health, 
-              I'm passionate about helping women safely return to exercise after pregnancy. As a mother 
+              With over 10 years of experience as a physical therapist specializing in women&apos;s health, 
+              I&apos;m passionate about helping women safely return to exercise after pregnancy. As a mother 
               and athlete myself, I understand the unique challenges of this journey.
             </p>
             <p className="text-gray-600">

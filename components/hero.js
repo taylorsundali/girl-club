@@ -1,3 +1,4 @@
+import Image from 'next/image';	
 import { ArrowRight, Activity, Heart } from 'lucide-react';
 
 export default function Hero() {

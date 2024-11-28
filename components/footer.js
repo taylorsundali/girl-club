@@ -29,12 +29,12 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <nav className="space-y-2">
-  <Link href="/" className="block hover:text-blue-400">Home</Link>
-  <Link href="/about" className="block hover:text-blue-400">About</Link>
-  <Link href="/services" className="block hover:text-blue-400">Services</Link>
-  <Link href="/pricing" className="block hover:text-blue-400">Pricing</Link>
-  <Link href="/contact" className="block hover:text-blue-400">Contact Us</Link>
-</nav>
+              <Link href="/" className="block hover:text-blue-400">Home</Link>
+              <Link href="/about" className="block hover:text-blue-400">About</Link>
+              <Link href="/services" className="block hover:text-blue-400">Services</Link>
+              <Link href="/pricing" className="block hover:text-blue-400">Pricing</Link>
+              <Link href="/contact" className="block hover:text-blue-400">Contact Us</Link>
+            </nav>
           </div>
 
           {/* Services */}

@@ -6,12 +6,12 @@ export default function About() {
         <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">Meet Your Coach</h2>
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <Image 
-  src="/api/placeholder/300/300" 
-  alt="Coach portrait" 
-  width={300}
-  height={300}
-  className="rounded-full w-48 h-48 object-cover"
-/>
+            src="/api/placeholder/300/300" 
+            alt="Coach portrait" 
+            width={300}
+            height={300}
+            className="rounded-full w-48 h-48 object-cover"
+          />
           <div>
             <h3 className="text-xl font-semibold mb-4">Dr. Sarah Johnson, PT, DPT</h3>
             <p className="text-gray-600 mb-4">

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Link from 'next/link';
 import { Phone, Mail, MapPin, Instagram, Facebook } from 'lucide-react';
 
 export default function Footer() {
@@ -29,12 +29,12 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <nav className="space-y-2">
-              <a href="/" className="block hover:text-blue-400">Home</a>
-              <a href="/about" className="block hover:text-blue-400">About</a>
-              <a href="/services" className="block hover:text-blue-400">Services</a>
-              <a href="/pricing" className="block hover:text-blue-400">Pricing</a>
-              <a href="/contact" className="block hover:text-blue-400">Contact Us</a>
-            </nav>
+  <Link href="/" className="block hover:text-blue-400">Home</Link>
+  <Link href="/about" className="block hover:text-blue-400">About</Link>
+  <Link href="/services" className="block hover:text-blue-400">Services</Link>
+  <Link href="/pricing" className="block hover:text-blue-400">Pricing</Link>
+  <Link href="/contact" className="block hover:text-blue-400">Contact Us</Link>
+</nav>
           </div>
 
           {/* Services */}
@@ -53,10 +53,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Stay Connected</h3>
             <div className="flex gap-4 mb-6">
-              <a href="#" className="hover:text-blue-400">
+              <Link href="#" className="hover:text-blue-400">
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="#" className="hover:text-blue-400">
+              <Link href="#" className="hover:text-blue-400">
                 <Facebook className="h-6 w-6" />
               </a>
             </div>

@@ -43,11 +43,13 @@ export default function Hero() {
         </div>
         
         <div className="mt-12 lg:mt-0 lg:relative">
-          <img 
-            src="/api/placeholder/600/400" 
-            alt="Physical therapist working with client" 
-            className="rounded-lg shadow-lg object-cover"
-          />
+          <Image 
+  src="/api/placeholder/600/400" 
+  alt="Physical therapist working with client"
+  width={600}
+  height={400} 
+  className="rounded-lg shadow-lg object-cover"
+/>
         </div>
       </div>
     </div>
